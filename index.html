@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Abhivardhan Reddy E | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
+
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-ZXKUpU6Hd1L4SbnQ9WOGULN9OpLCFZT7YEdXLQnlmzkZ5rB1WeX4RwAvxqVZ+ZYXbTQW9Xf8ObM/ZQ6DvOpyxg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 </head>
 <body>
   <header id="home">
@@ -20,7 +29,7 @@
       </ul>
     </nav>
     <div class="hero">
-      <img src="img/profile.jpg" alt="Abhivardhan Reddy E" class="profile-img">
+      <img src="img/profile.jpg" alt="Abhivardhan Reddy E" class="profile-img" />
       <h2>Hi, I'm Abhivardhan Reddy E</h2>
       <p>Passionate CSE Student | Future Software Developer</p>
     </div>
@@ -36,37 +45,30 @@
   </section>
 
   <section id="portfolio">
-  <h2>My Projects</h2>
-  <div class="portfolio-grid">
-
-    <div class="project-card">
-      <h3>AI-Based Hand Gesture Drawing Application</h3>
-      <p>Built a real-time drawing app using Python, OpenCV, and MediaPipe where users draw with finger gestures on a virtual canvas. Features include gesture-based color changes, palm-based erasing, and real-time visual feedback.</p>
+    <h2>My Projects</h2>
+    <div class="portfolio-grid">
+      <div class="project-card">
+        <h3>AI-Based Hand Gesture Drawing Application</h3>
+        <p>Built a real-time drawing app using Python, OpenCV, and MediaPipe where users draw with finger gestures on a virtual canvas. Features include gesture-based color changes, palm-based erasing, and real-time visual feedback.</p>
+      </div>
+      <div class="project-card">
+        <h3>Voice Assistant Project – Neo (Alexa-like AI Assistant)</h3>
+        <p>Created a dynamic voice assistant named Neyo capable of understanding and answering user queries in real-time using Wikipedia and API integrations (OpenWeatherMap). Implemented continuous speech recognition, dynamic question answering, real-time weather updates, and mid-response interruption control.</p>
+      </div>
+      <div class="project-card">
+        <h3>Telegram Bot for Image Background Removal</h3>
+        <p>Developed a Telegram bot that removes image backgrounds and returns PNG images. Built with Python (renbg, PIL, onnxruntime) and deployed using Render with CI/CD pipelines for continuous integration and deployment.</p>
+      </div>
+      <div class="project-card">
+        <h3>Smart Parking Management System</h3>
+        <p>A web-based Java application using JSP, JDBC, MySQL, and styled with HTML/CSS. It allows users to register, log in, and book parking slots in real-time, with session handling and a dynamic dashboard for slot management.</p>
+      </div>
+      <div class="project-card">
+        <h3>Weather Prediction Using Data Analytics</h3>
+        <p>Analyzed a Kaggle dataset containing weather data for various cities in India to predict weather conditions using data analytics techniques. Focuses on identifying patterns and trends for better forecasting.</p>
+      </div>
     </div>
-
-    <div class="project-card">
-      <h3>Voice Assistant Project – Neo (Alexa-like AI Assistant)</h3>
-      <p>Created a dynamic voice assistant named Neyo capable of understanding and answering user queries in real-time using Wikipedia and API integrations (OpenWeatherMap). Implemented continuous speech recognition, dynamic question answering, real-time weather updates, and mid-response interruption control.</p>
-    </div>
-
-    <div class="project-card">
-      <h3>Telegram Bot for Image Background Removal</h3>
-      <p>Developed a Telegram bot that removes image backgrounds and returns PNG images. Built with Python (renbg, PIL, onnxruntime) and deployed using Render with CI/CD pipelines for continuous integration and deployment.</p>
-    </div>
-
-    <div class="project-card">
-      <h3>Smart Parking Management System</h3>
-      <p>A web-based Java application using JSP, JDBC, MySQL, and styled with HTML/CSS. It allows users to register, log in, and book parking slots in real-time, with session handling and a dynamic dashboard for slot management.</p>
-    </div>
-
-    <div class="project-card">
-      <h3>Weather Prediction Using Data Analytics</h3>
-      <p>Analyzed a Kaggle dataset containing weather data for various cities in India to predict weather conditions using data analytics techniques. Focuses on identifying patterns and trends for better forecasting.</p>
-    </div>
-
-  </div>
-</section>
-
+  </section>
 
   <section id="services">
     <h2>Services</h2>
@@ -81,16 +83,23 @@
   <section id="contact">
     <h2>Contact Me</h2>
     <form class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit">Submit</button>
     </form>
   </section>
 
+  <!-- Social Icons -->
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://discordapp.com/users/your-discord-id" target="_blank"><i class="fab fa-discord"></i></a>
+    <a href="https://instagram.com/your-username" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+
   <footer>
     <p>Never Give Up</p>
-    
     <p>Keep learning, building, and growing. The future is yours!</p>
   </footer>
 </body>

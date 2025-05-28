@@ -184,6 +184,25 @@ section h2 {
 .contact-form button:hover {
   background: #b04e72;
 }
+.social-links {
+  margin: 2rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.8rem;
+}
+
+.social-links a {
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  color: #cb5b83;
+  transform: scale(1.2);
+}
+
 
 footer {
   text-align: center;
